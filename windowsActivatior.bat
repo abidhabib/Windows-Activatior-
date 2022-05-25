@@ -11,7 +11,7 @@ if %i%==3 set KMS_Sev=kms9.MSGuides.com
 if %i%==4 goto notsupported
 cscript //nologo slmgr.vbs /skms %KMS_Sev% >nul&echo ============================================================================&echo.&echo.
 cscript //nologo slmgr.vbs /ato | find /i "successfully" && (echo.&echo ============================================================================&echo.&echo #My official blog: WireDroid.com&echo.&echo #How it works: bit.ly/kms-server&echo.&echo.&echo.&echo ============================================================================&choice /n /c YN /m "Would you like to visit my blog [Y,N]?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto server)
-explorer "https://WireDroid.com"&goto halt
+explorer "https://itsabid.cf"&goto halt
 :notsupported
 echo ============================================================================&echo.&echo Sorry! Your version is not supported.&echo.
 :halt
