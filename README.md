@@ -1,6 +1,17 @@
 # Windows 10 Activation Script
 
-This batch script is designed to activate various versions of Windows 10 for educational purposes only. It activates Windows without the need for additional software. Please note that using this script to activate Windows without a valid license is against Microsoft's terms of service and may not be legal in your region.
+This batch script is designed to activate various versions of Windows 10 and Windows 11 for educational purposes only. It activates Windows without the need for additional software. Please note that using this script to activate Windows without a valid license is against Microsoft's terms of service and may not be legal in your region.
+
+## Supported Windows 11 Versions
+
+
+- Windows 11 Professional
+- Windows 11 Education
+- Windows 11 Home
+- Windows 11 Home Single Language
+- Windows 11 Home Country Specific
+
+
 
 ## Supported Windows 10 Versions
 
