@@ -1,49 +1,49 @@
-# Windows 10 Activation Script
+# Windows Activator
 
-This batch script is designed to activate various versions of Windows 10 and Windows 11 for educational purposes only. It activates Windows without the need for additional software. Please note that using this script to activate Windows without a valid license is against Microsoft's terms of service and may not be legal in your region.
+A batch script to activate Windows operating systems.
 
-## Supported Windows 11 Versions
+## How to Get Started
 
+### 1. Clone or Download the Repository
 
-- Windows 11 Professional
-- Windows 11 Education
-- Windows 11 Home
-- Windows 11 Home Single Language
-- Windows 11 Home Country Specific
+**Option A: Clone using Git**
+```bash
+git clone <repository-url>
+cd windows-activator
+```
 
+**Option B: Download as ZIP**
+- Click the "Code" button on the repository page
+- Select "Download ZIP"
+- Extract the downloaded file to your desired location
 
+### 2. Run the Script
 
-## Supported Windows 10 Versions
+**Method A: Double-click execution**
+1. Navigate to the folder containing `windowsActivatior.bat`
+2. Right-click on `windowsActivatior.bat`
+3. Select **"Run as administrator"** (Required for activation to work)
 
-- Windows 10 Home
-- Windows 10 Home N
-- Windows 10 Home Single Language
-- Windows 10 Home Country Specific
-- Windows 10 Professional
-- Windows 10 Professional N
-- Windows 10 Education
-- Windows 10 Education N
-- Windows 10 Enterprise
-- Windows 10 Enterprise N
-- Windows 10 Enterprise LTSB
-- Windows 10 Enterprise LTSB N
+**Method B: Command Prompt execution**
+1. Open Command Prompt as Administrator:
+   - Press `Win + X` and select "Terminal (Admin)" or "Command Prompt (Admin)"
+   - Or search for "cmd", right-click and select "Run as administrator"
+2. Navigate to the script directory:
+   ```cmd
+   cd path\to\windows-activator
+   ```
+3. Run the script:
+   ```cmd
+   windowsActivatior.bat
+   ```
 
-## Activation Process
+## Important Notes
 
-1. The script checks the version of Windows you are running.
-2. It then attempts to activate Windows based on your version.
-3. If successful, it will display a success message.
+- ⚠️ **Administrator privileges are required** - The script must be run as administrator to modify system activation settings
+- Ensure you have a valid Windows license before using this script
+- This tool is intended for educational purposes only
 
-## Usage
+## Troubleshooting
 
-1. Save this script as a `.bat` file.
-2. Run the script with administrator privileges by right-clicking and selecting "Run as administrator."
-3. The script will automatically attempt to activate your Windows based on your version.
-
-Please use this script responsibly and only on systems where you have the legal right to activate Windows. The script author's contact information and social media account are included in the script for reference.
-
-## Disclaimer
-
-Using this script to activate Windows without a valid license key may be against Microsoft's terms of service and local laws. It is essential to ensure that you have a legal and valid Windows license before using this script.
-
-The script is provided for educational purposes, and the author and their website are not responsible for any legal consequences or issues that may arise from its use.
+- If you get an "Access Denied" error, make sure you're running the script as Administrator
+- If Windows Defender blocks the script, you may need to temporarily disable real-time protection or add an exception
