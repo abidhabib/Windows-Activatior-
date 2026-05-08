@@ -1,0 +1,15 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "generate-readme-24266",
+    "main"
+  ],
+  "parent": {
+    "generate-readme-24266": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "generate-readme-24266"
+  ]
+}

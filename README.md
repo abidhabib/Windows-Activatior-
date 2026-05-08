@@ -8,7 +8,7 @@ A batch script to activate Windows operating systems.
 
 **Option A: Clone using Git**
 ```bash
-git clone <repository-url>
+git clone https://github.com/abidhabib/Windows-Activatior-.git
 cd windows-activator
 ```
 
